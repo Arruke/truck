@@ -1,0 +1,23 @@
+.home {
+    background: url(../images/truck.png);
+    padding-top: 155px;
+    padding-bottom: 220px;
+    &__title {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 41px;
+    }
+    &__subtitle {
+        color: white;
+        text-align: center;
+    }
+    &__block {
+        padding: 45px;
+        width: 600px;
+        height: 160px;
+        border: 2px solid #C8A35F;
+        padding: 15px;
+        margin: 0 auto;
+    }
+}

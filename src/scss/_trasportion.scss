@@ -1,0 +1,25 @@
+.trasportion{   
+    background: linear-gradient(90deg, #393F47 40%, #2F343A 40% 60%, #393F47 60%  );
+    padding-left: 205px;
+    padding-top: 120px;
+    padding-bottom: 148px;
+    .wraper{
+        display: flex;
+    }
+    &__title{
+        font-size: 40px;
+        color: white;
+        text-transform: uppercase;
+    }
+    &__subtitle{
+        color: white;
+        font-size: 18px;
+    }   
+    &__btn{
+        background: $gold;
+        color:#FFFFFF;
+        width: 220px;
+        height: 55px;
+        font-size: 16px;
+    }
+}

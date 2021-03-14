@@ -1,0 +1,22 @@
+.footer{
+ width: 100%;
+ background: $gold;
+ padding: 60px 190px;
+ .row{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     .col{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         }
+    }
+    &__link{
+        color: #fff;
+        text-decoration:none ;
+        &-black{
+            color: #000;
+        }
+    }
+}
